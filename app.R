@@ -9,9 +9,9 @@ library(zoo)
 
 returns <- readRDS("returns.rds")
 portfolio_choices <- c(
-  "Conservative" = "conservative_portfolio_returns",
-  "Balanced" = "balanced_portfolio_returns",
-  "Aggressive" = "aggressive_portfolio_returns"
+  "Conservative1" = "conservative_portfolio_returns",
+  "Balanced1" = "balanced_portfolio_returns",
+  "Aggressive1" = "aggressive_portfolio_returns"
 )
 
 ui <- dashboardPage(
